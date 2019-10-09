@@ -1,0 +1,2 @@
+interproscan.sh -appl Pfam -i path/domainpredictions.fasta
+

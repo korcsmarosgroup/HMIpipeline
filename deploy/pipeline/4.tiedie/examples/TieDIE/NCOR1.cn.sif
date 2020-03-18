@@ -1,0 +1,9 @@
+HDAC3	activates>	E2F1
+NCOR1	inhibits>	PPARA
+E2F1	activates>	MAP1LC3B
+FOXO1	activates>	ATG7
+ESR1	activates>	E2F1
+PPARA	inhibits>	FOXO1
+ESR1	inhibits>	FOXO1
+NCOR1	inhibits>	ESR1
+NCOR1	activates>	HDAC3

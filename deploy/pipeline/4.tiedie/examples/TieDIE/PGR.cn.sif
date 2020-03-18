@@ -1,0 +1,15 @@
+MAPK3	activates>	E2F1
+STAT1	activates>	ATG7
+FOXO1	activates>	ATG7
+GABARAPL1	activates>	ATG7
+PGR	activates>	ESR1
+ESR1	activates>	E2F1
+E2F1	activates>	MAP1LC3B
+FOXP1	activates>	GABARAPL1
+PGR	activates>	MAPK1
+MAPK1	activates>	STAT1
+PGR	activates>	MAPK3
+ATG7	activates>	MAP1LC3B
+PGR	activates>	FOXP1
+PGR	activates>	FOXO1
+ESR1	inhibits>	FOXO1

@@ -1,0 +1,21 @@
+Data used and description
+
+DESCRIPTION : Performs disordered region based filtering of motifs predicted  to be involved in the domain-motif interactions inferred in the previous step. 
+
+A. Input files : 
+
+1. 16591 interactions between microbial and host proteins predicted by DMI script;
+see MPDMIresult.tsv in "resources" folder
+
+2. human receptor protein sequences ; downloaded from Uniprot by the script idr_prediction.py
+and stored in the folder "protein_sequences"
+
+B. Script :
+
+Main script idr_prediction.py which calls the actual IUPRED script iupred2a.py
+
+C. Output files : 
+
+1. IUPRED filtered results stored in "idr_motifs.csv" in the "results" folder and contains 2098 interactions between microbial and host proteins
+
+

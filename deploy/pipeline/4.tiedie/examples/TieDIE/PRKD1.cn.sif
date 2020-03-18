@@ -1,0 +1,15 @@
+PRKD1	activates>	CTNNB1
+STAT1	activates>	ATG7
+FOXO1	activates>	ATG7
+E2F1	activates>	MAP1LC3B
+PRKD1	activates>	YWHAH
+EGFR	activates>	STAT1
+PRKD1	activates>	EGFR
+EGFR	activates>	E2F1
+CTNNB1	activates>	FOXO1
+PRKD1	activates>	SRC
+SRC	activates>	STAT1
+PRKACA	inhibits>	MAP1LC3B
+PRKD1	activates>	PLCG1
+YWHAH	inhibits>	FOXO1
+PLCG1	activates>	PRKACA

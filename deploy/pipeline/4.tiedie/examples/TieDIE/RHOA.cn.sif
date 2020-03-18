@@ -1,0 +1,9 @@
+RHOA	activates>	MAPK8
+STAT1	activates>	ATG7
+FOXO1	activates>	ATG7
+PKN1	inhibits>	FOXO1
+MAPK8	activates>	STAT1
+RHOA	activates>	PLCG1
+PRKACA	inhibits>	MAP1LC3B
+RHOA	activates>	PKN1
+PLCG1	activates>	PRKACA

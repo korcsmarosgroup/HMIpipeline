@@ -1,0 +1,5 @@
+STAT1	activates>	ATG7
+FYN	activates>	PRKACA
+CD55	activates>	FYN
+FYN	activates>	STAT1
+PRKACA	inhibits>	MAP1LC3B

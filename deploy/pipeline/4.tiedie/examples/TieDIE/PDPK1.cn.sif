@@ -1,0 +1,14 @@
+STAT1	activates>	ATG7
+FOXO1	activates>	ATG7
+PDPK1	activates>	AKT2
+PRKCD	activates>	STAT1
+AKT1	activates>	PRKACA
+PDPK1	activates>	AKT1
+PDPK1	activates>	PRKCD
+AKT2	inhibits>	FOXO1
+PDPK1	activates>	PRKACA
+PDPK1	activates>	YWHAH
+PDPK1	activates>	PKN1
+PRKACA	inhibits>	MAP1LC3B
+PKN1	inhibits>	FOXO1
+YWHAH	inhibits>	FOXO1

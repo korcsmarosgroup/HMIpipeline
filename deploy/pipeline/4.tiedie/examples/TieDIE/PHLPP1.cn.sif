@@ -1,0 +1,8 @@
+PHLPP1	inhibits>	AKT2
+FOXO1	activates>	ATG7
+STK4	activates>	FOXO1
+AKT1	activates>	PRKACA
+PHLPP1	activates>	STK4
+AKT2	inhibits>	FOXO1
+PHLPP1	inhibits>	AKT1
+PRKACA	inhibits>	MAP1LC3B

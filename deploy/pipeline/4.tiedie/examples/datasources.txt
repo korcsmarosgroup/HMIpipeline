@@ -1,0 +1,34 @@
+DESCRIPTION : Given a set of start nodes, stope nodes with corresponding weights, a directed signed interaction network, the TieDIE tool uncovers logically consistent paths connecting the start proteins and the stop proteins. 
+
+
+Data used and description
+
+A. Input files : 
+
+1. Start genes/proteins : see upstream.input - list of start genes/proteins with their corresponding weights (column 1 - in the use case, we use the number of microbial proteins which modulate this host start protein) and effect sign (in the use case, we use + as default)
+
+2. Stop genes/proteins : see downstream.input - list of stop genes/proteins with their corresponding weights (column 1 - in the use case, we use the gene expression fold change) and effect sign (in the use case, we use the direction of differential expression of the gene, i.e + for up-regualtion and - for down-regulation)
+
+3. Network file - pathway.sif - list of directed and signed interaction networks. In the use case, we use a combination of directed and signed PPIs from Omnipath v1 and TFTGs from Dorothea levels ABC
+
+4. Pre-computed diffusion kernel file - see tiedie_kernel.pkl. 
+This file is provided in the use case to save time. Generally, the user has to run the TieDie tool and the kernel file is produced from the network provided. For all subsequent uses, if the user wishes to employ the same network, then the script calls on the already generated and saved diffusion kernel. 
+
+B. Script package:
+
+Main script "tiedie" in "bin" folder
+
+C. Execution
+
+From "examples" folder, once all the needed input files are provided, from Terminal, type "make"
+
+D. Output files
+
+Output files are stored in the "TieDIE" folder with the "examples" folder
+
+Main output files are as follows:
+
+1. tiedie.cn.sif - contains the logically consistent paths from the start to stop proteins
+2. heats.NA - Node-attribute file formatted for Cytoscape input
+
+The above two files can be used to generate a Cytoscape network by the user. 

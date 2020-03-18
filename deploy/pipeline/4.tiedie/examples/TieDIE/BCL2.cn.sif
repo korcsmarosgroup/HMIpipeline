@@ -1,0 +1,11 @@
+FOXO1	activates>	ATG7
+E2F1	activates>	MAP1LC3B
+BCL2	inhibits>	TP53
+BCL2	inhibits>	PARP1
+BCL2	activates>	MYC
+TP53	activates>	TP53INP1
+MYC	activates>	E2F1
+TP53	inhibits>	E2F1
+TP53INP1	activates>	MAP1LC3B
+PARP1	activates>	E2F1
+PARP1	inhibits>	FOXO1

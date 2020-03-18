@@ -1,6 +1,0 @@
-•	Install docker (https://docs.docker.com/docker-for-mac/install/)
-•	(sudo) docker pull brinkmanlab/psortm_commandline:1.0.2
-•	wget https://raw.githubusercontent.com/brinkmanlab/psortm_commandline_docker/master/psortm
-•	chmod +x psortm
-•	./psortb -i <inputsequencefile.fasta> -r <directory name for output files> - <p = Gram +ve, n = Gram -ve>
-•	Use the prediction from the “Final Prediction:” row. Score gives you a continuous quantitative measure. 

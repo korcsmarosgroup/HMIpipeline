@@ -1,0 +1,6 @@
+EPOR	activates>	JAK2
+STAT1	activates>	ATG7
+JAK2	activates>	STAT1
+EPOR	activates>	PLCG1
+PLCG1	activates>	PRKACA
+PRKACA	inhibits>	MAP1LC3B

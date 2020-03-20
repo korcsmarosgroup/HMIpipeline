@@ -1,0 +1,5 @@
+JAK3	activates>	STAT1
+STAT1	activates>	ATG7
+STAM	activates>	JAK2
+JAK2	activates>	STAT1
+STAM	activates>	JAK3

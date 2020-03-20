@@ -1,0 +1,8 @@
+E2F1	activates>	MAP1LC3B
+SPI1	activates>	ATG7
+JUN	activates>	SPI1
+TP53	activates>	TP53INP1
+TP53	inhibits>	E2F1
+MAPK10	activates>	TP53
+TP53INP1	activates>	MAP1LC3B
+MAPK10	activates>	JUN

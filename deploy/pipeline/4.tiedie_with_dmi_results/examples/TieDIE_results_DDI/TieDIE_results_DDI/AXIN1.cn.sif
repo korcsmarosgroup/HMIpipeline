@@ -1,0 +1,10 @@
+E2F1	activates>	MAP1LC3B
+TP53	activates>	TP53INP1
+TP53	inhibits>	E2F1
+AXIN1	activates>	MYC
+FOXO1	activates>	ATG7
+SMAD3	activates>	FOXO1
+AXIN1	activates>	SMAD3
+MYC	activates>	E2F1
+TP53INP1	activates>	MAP1LC3B
+AXIN1	activates>	TP53

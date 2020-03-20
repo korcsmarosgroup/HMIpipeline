@@ -1,0 +1,5 @@
+STAT1	activates>	ATG7
+PDGFRB	activates>	STAT1
+PDGFC	activates>	PDGFRA
+PDGFC	activates>	PDGFRB
+PDGFRA	activates>	STAT1

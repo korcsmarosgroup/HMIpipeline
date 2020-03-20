@@ -1,0 +1,5 @@
+STAT1	activates>	ATG7
+STAM2	activates>	JAK2
+TYK2	activates>	STAT1
+JAK2	activates>	STAT1
+STAM2	activates>	TYK2

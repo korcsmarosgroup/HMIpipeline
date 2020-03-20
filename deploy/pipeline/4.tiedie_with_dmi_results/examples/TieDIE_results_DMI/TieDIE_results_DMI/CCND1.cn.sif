@@ -1,0 +1,14 @@
+STAT3	activates>	STAT1
+CDKN1A	inhibits>	E2F1
+CCND1	activates>	ESR1
+E2F1	activates>	MAP1LC3B
+ESR1	inhibits>	FOXO1
+FOXO1	activates>	ATG7
+HDAC3	activates>	E2F1
+STAT1	activates>	ATG7
+CCND1	activates>	CDKN1A
+SPI1	activates>	ATG7
+CCND1	activates>	HDAC3
+ESR1	activates>	E2F1
+STAT3	activates>	SPI1
+CCND1	inhibits>	STAT3

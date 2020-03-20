@@ -1,6 +1,0 @@
-SMAD3	activates>	FOXO1
-CSK	activates>	PRKACA
-FOXO1	activates>	ATG7
-DAB2	activates>	CSK
-DAB2	activates>	SMAD3
-PRKACA	inhibits>	MAP1LC3B

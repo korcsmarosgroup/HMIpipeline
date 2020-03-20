@@ -1,0 +1,6 @@
+PTK2	activates>	STAT1
+PLCG1	activates>	PRKACA
+STAT1	activates>	ATG7
+FLT1	activates>	PTK2
+FLT1	activates>	PLCG1
+PRKACA	inhibits>	MAP1LC3B

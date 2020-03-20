@@ -1,0 +1,8 @@
+CSK	activates>	PRKACA
+CSK	activates>	PTK2
+STAT1	activates>	ATG7
+CSK	activates>	FYN
+PTK2	activates>	STAT1
+FYN	activates>	STAT1
+FYN	activates>	PRKACA
+PRKACA	inhibits>	MAP1LC3B

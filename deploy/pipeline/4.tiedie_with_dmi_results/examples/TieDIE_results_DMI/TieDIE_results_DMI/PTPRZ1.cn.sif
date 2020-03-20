@@ -1,0 +1,5 @@
+PTPRZ1	inhibits>	FYN
+STAT1	activates>	ATG7
+FYN	activates>	STAT1
+FYN	activates>	PRKACA
+PRKACA	inhibits>	MAP1LC3B

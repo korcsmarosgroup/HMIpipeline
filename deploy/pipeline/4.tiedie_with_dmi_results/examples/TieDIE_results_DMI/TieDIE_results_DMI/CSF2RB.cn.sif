@@ -1,0 +1,7 @@
+STAT3	activates>	STAT1
+CSF2RB	activates>	STAT1
+STAT1	activates>	ATG7
+SPI1	activates>	ATG7
+CSF2RB	activates>	STAT3
+ATG7	activates>	MAP1LC3B
+STAT3	activates>	SPI1

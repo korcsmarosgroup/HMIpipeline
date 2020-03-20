@@ -1,0 +1,3 @@
+KSR1	activates>	MAPK1
+MAPK1	activates>	STAT1
+STAT1	activates>	ATG7

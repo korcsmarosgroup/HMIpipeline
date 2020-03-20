@@ -1,0 +1,8 @@
+E2F1	activates>	MAP1LC3B
+STAT1	activates>	ATG7
+SMURF2	inhibits>	EGFR
+FOXO1	activates>	ATG7
+CTNNB1	activates>	FOXO1
+EGFR	activates>	E2F1
+SMURF2	activates>	CTNNB1
+EGFR	activates>	STAT1

@@ -1,0 +1,12 @@
+PTK2	activates>	STAT1
+PLCG1	activates>	PRKACA
+PIK3R1	activates>	MAPK8
+STAT1	activates>	ATG7
+PDPK1	activates>	PRKACA
+MAPK8	activates>	STAT1
+PIK3R1	activates>	AKT1
+PIK3R1	activates>	PTK2
+PIK3R1	activates>	PDPK1
+PIK3R1	activates>	PLCG1
+AKT1	activates>	PRKACA
+PRKACA	inhibits>	MAP1LC3B

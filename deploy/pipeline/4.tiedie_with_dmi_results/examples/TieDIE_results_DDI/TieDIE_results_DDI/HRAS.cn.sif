@@ -1,0 +1,6 @@
+HRAS	activates>	JUN
+STAT1	activates>	ATG7
+SPI1	activates>	ATG7
+JUN	activates>	SPI1
+MAPK8	activates>	STAT1
+HRAS	activates>	MAPK8

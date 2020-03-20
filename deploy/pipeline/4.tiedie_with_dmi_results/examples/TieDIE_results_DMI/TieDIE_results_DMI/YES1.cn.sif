@@ -1,0 +1,11 @@
+YES1	activates>	PTK2
+EGFR	activates>	E2F1
+YES1	activates>	KIT
+E2F1	activates>	MAP1LC3B
+STAT1	activates>	ATG7
+YES1	activates>	PDGFRB
+KIT	activates>	STAT1
+EGFR	activates>	STAT1
+PTK2	activates>	STAT1
+PDGFRB	activates>	STAT1
+YES1	activates>	EGFR

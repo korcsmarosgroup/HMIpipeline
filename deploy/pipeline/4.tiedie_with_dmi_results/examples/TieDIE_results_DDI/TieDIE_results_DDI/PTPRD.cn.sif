@@ -1,0 +1,5 @@
+STAT1	activates>	ATG7
+STAT3	activates>	STAT1
+SPI1	activates>	ATG7
+PTPRD	inhibits>	STAT3
+STAT3	activates>	SPI1

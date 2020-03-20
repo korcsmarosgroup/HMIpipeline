@@ -1,0 +1,5 @@
+SH2B1	activates>	STAT3
+STAT1	activates>	ATG7
+STAT3	activates>	STAT1
+SPI1	activates>	ATG7
+STAT3	activates>	SPI1

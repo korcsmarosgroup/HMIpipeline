@@ -1,0 +1,13 @@
+MDM2	activates>	FOXO1
+SUMO1	activates>	CTCF
+SUMO1	activates>	SMAD4
+MDM2	activates>	E2F1
+E2F1	activates>	MAP1LC3B
+FOXO1	activates>	ATG7
+PARP1	inhibits>	FOXO1
+SMAD4	activates>	ATF1
+ATF1	activates>	MAP1LC3B
+SUMO1	activates>	MDM2
+CTCF	activates>	ATF1
+SUMO1	inhibits>	PARP1
+PARP1	activates>	E2F1

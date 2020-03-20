@@ -1,0 +1,14 @@
+E2F1	activates>	MAP1LC3B
+STAT1	activates>	ATG7
+MAPK14	inhibits>	PRKACA
+MAPK14	activates>	STAT1
+FOXO1	activates>	ATG7
+HBP1	activates>	MAP1LC3B
+EGFR	activates>	E2F1
+PKN1	activates>	MAPK14
+PKN1	inhibits>	EGFR
+MAPK14	activates>	HBP1
+ATG7	activates>	MAP1LC3B
+PKN1	inhibits>	FOXO1
+EGFR	activates>	STAT1
+PRKACA	inhibits>	MAP1LC3B

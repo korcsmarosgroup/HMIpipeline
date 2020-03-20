@@ -1,0 +1,7 @@
+E2F1	activates>	MAP1LC3B
+FOXO1	activates>	ATG7
+NCOR2	activates>	HDAC3
+ESR1	activates>	E2F1
+ESR1	inhibits>	FOXO1
+HDAC3	activates>	E2F1
+NCOR2	inhibits>	ESR1

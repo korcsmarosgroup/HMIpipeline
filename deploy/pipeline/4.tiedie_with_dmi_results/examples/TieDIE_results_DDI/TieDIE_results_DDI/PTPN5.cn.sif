@@ -1,0 +1,10 @@
+MAPK3	activates>	E2F1
+E2F1	activates>	MAP1LC3B
+STAT1	activates>	ATG7
+FYN	activates>	PRKACA
+MAPK1	activates>	STAT1
+FYN	activates>	STAT1
+PTPN5	inhibits>	FYN
+PTPN5	inhibits>	MAPK3
+PTPN5	inhibits>	MAPK1
+PRKACA	inhibits>	MAP1LC3B

@@ -1,0 +1,12 @@
+EIF2AK2	activates>	TP53
+TP53	activates>	TP53INP1
+EIF2AK2	activates>	STAT3
+STAT3	activates>	STAT1
+E2F1	activates>	MAP1LC3B
+STAT1	activates>	ATG7
+CDK1	activates>	E2F1
+SPI1	activates>	ATG7
+TP53INP1	activates>	MAP1LC3B
+TP53	inhibits>	E2F1
+STAT3	activates>	SPI1
+EIF2AK2	inhibits>	CDK1

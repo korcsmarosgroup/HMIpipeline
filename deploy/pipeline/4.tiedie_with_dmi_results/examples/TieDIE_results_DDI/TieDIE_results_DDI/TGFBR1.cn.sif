@@ -1,0 +1,6 @@
+FOXO1	activates>	ATG7
+CTNNB1	activates>	FOXO1
+SMAD4	activates>	ATF1
+TGFBR1	activates>	SMAD4
+ATF1	activates>	MAP1LC3B
+TGFBR1	activates>	CTNNB1

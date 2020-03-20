@@ -1,0 +1,3 @@
+Navigate to the "examples" folder with all the required input files
+
+Type make

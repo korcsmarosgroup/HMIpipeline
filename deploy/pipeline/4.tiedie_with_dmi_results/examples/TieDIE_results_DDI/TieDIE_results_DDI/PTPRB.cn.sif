@@ -1,0 +1,9 @@
+MAPK3	activates>	E2F1
+PTPRB	activates>	CTNNB1
+STAT1	activates>	ATG7
+E2F1	activates>	MAP1LC3B
+FOXO1	activates>	ATG7
+PTPRB	activates>	MAPK3
+MAPK1	activates>	STAT1
+PTPRB	inhibits>	MAPK1
+CTNNB1	activates>	FOXO1

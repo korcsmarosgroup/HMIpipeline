@@ -1,0 +1,9 @@
+STAT1	activates>	ATG7
+RACK1	activates>	SRC
+STAT3	activates>	STAT1
+SPI1	activates>	ATG7
+PRKCD	activates>	STAT1
+STAT3	activates>	SPI1
+RACK1	activates>	STAT3
+RACK1	activates>	PRKCD
+SRC	activates>	STAT1

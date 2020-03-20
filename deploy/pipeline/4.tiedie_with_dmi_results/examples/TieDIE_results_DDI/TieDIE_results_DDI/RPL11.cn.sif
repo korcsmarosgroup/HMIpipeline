@@ -1,0 +1,9 @@
+E2F1	activates>	MAP1LC3B
+TP73	activates>	TP53INP1
+FOXO1	activates>	ATG7
+TP73	activates>	E2F1
+TP53INP1	activates>	MAP1LC3B
+MDM2	activates>	FOXO1
+RPL11	inhibits>	MDM2
+MDM2	activates>	E2F1
+RPL11	activates>	TP73

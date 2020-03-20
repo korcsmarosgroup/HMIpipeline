@@ -1,0 +1,11 @@
+HSP90AA1	activates>	SRC
+TP53	activates>	TP53INP1
+SRC	activates>	STAT1
+HSP90AA1	inhibits>	TP53
+E2F1	activates>	MAP1LC3B
+STAT1	activates>	ATG7
+AKT1	activates>	PRKACA
+TP53INP1	activates>	MAP1LC3B
+TP53	inhibits>	E2F1
+HSP90AA1	activates>	AKT1
+PRKACA	inhibits>	MAP1LC3B

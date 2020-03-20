@@ -1,0 +1,6 @@
+E2F1	activates>	MAP1LC3B
+STAT1	activates>	ATG7
+PCNA	activates>	E2F1
+GLI2	inhibits>	IFNGR1
+GLI2	activates>	PCNA
+IFNGR1	activates>	STAT1

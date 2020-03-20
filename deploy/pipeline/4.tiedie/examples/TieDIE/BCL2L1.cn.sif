@@ -1,8 +1,0 @@
-E2F1	activates>	MAP1LC3B
-ATG3	activates>	MAP1LC3B
-CFLAR	inhibits>	ATG3
-TP53	activates>	TP53INP1
-TP53	inhibits>	E2F1
-BCL2L1	inhibits>	TP53
-TP53INP1	activates>	MAP1LC3B
-BCL2L1	activates>	CFLAR

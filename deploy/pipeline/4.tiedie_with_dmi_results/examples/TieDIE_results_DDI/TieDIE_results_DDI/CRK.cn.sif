@@ -1,0 +1,5 @@
+CRK	activates>	MAPK8
+STAT1	activates>	ATG7
+MAPK8	activates>	STAT1
+ABL1	activates>	STAT1
+CRK	activates>	ABL1

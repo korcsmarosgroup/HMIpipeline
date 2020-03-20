@@ -1,0 +1,5 @@
+STAT1	activates>	ATG7
+IL6ST	activates>	JAK2
+TYK2	activates>	STAT1
+JAK2	activates>	STAT1
+IL6ST	activates>	TYK2

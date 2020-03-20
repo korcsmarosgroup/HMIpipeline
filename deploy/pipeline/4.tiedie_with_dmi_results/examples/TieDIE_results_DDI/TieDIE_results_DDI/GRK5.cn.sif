@@ -1,0 +1,5 @@
+E2F1	activates>	MAP1LC3B
+TP53	activates>	TP53INP1
+TP53	inhibits>	E2F1
+TP53INP1	activates>	MAP1LC3B
+GRK5	inhibits>	TP53

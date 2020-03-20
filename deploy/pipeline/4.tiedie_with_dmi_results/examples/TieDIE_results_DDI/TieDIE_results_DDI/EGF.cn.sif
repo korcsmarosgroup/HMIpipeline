@@ -1,0 +1,8 @@
+EGF	activates>	ERBB2
+STAT1	activates>	ATG7
+E2F1	activates>	MAP1LC3B
+ERBB2	activates>	PRKACA
+EGFR	activates>	E2F1
+EGF	activates>	EGFR
+EGFR	activates>	STAT1
+PRKACA	inhibits>	MAP1LC3B

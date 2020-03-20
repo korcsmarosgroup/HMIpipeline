@@ -1,0 +1,5 @@
+STAT1	activates>	ATG7
+TYK2	activates>	STAT1
+JAK2	activates>	STAT1
+MPL	activates>	TYK2
+MPL	activates>	JAK2

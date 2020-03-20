@@ -1,5 +1,0 @@
-SPI1	activates>	ATG7
-STAT1	activates>	ATG7
-STAT3	activates>	SPI1
-NONO	activates>	STAT3
-STAT3	activates>	STAT1

@@ -1,0 +1,5 @@
+EGFR	activates>	E2F1
+E2F1	activates>	MAP1LC3B
+STAT1	activates>	ATG7
+EGFR	activates>	STAT1
+EPS15	activates>	EGFR

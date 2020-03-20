@@ -1,0 +1,11 @@
+E2F1	activates>	MAP1LC3B
+STAT1	activates>	ATG7
+BCR	activates>	PLCG1
+BCR	activates>	YWHAQ
+BCR	activates>	ABL1
+YWHAQ	activates>	E2F1
+BCR	activates>	JAK2
+JAK2	activates>	STAT1
+ABL1	activates>	STAT1
+PLCG1	activates>	PRKACA
+PRKACA	inhibits>	MAP1LC3B

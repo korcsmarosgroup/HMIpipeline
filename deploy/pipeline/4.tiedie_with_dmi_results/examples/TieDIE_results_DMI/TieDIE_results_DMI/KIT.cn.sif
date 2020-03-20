@@ -1,0 +1,5 @@
+STAT1	activates>	ATG7
+KIT	activates>	STAT1
+ATG7	activates>	MAP1LC3B
+JAK2	activates>	STAT1
+KIT	activates>	JAK2

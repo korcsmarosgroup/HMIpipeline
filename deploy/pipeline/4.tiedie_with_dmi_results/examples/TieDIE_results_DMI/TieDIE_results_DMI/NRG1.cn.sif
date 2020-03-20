@@ -1,0 +1,3 @@
+NRG1	activates>	ERBB2
+ERBB2	activates>	PRKACA
+PRKACA	inhibits>	MAP1LC3B

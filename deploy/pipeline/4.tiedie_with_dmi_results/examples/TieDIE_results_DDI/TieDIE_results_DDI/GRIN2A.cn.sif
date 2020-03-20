@@ -1,0 +1,3 @@
+PLCG1	activates>	PRKACA
+GRIN2A	activates>	PLCG1
+PRKACA	inhibits>	MAP1LC3B

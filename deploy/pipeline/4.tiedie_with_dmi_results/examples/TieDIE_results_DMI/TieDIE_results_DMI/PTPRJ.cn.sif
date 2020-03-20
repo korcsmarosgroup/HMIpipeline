@@ -1,0 +1,11 @@
+PTPRJ	activates>	SRC
+MAPK3	activates>	E2F1
+PTPRJ	inhibits>	PLCG1
+MAPK1	activates>	STAT1
+SRC	activates>	STAT1
+E2F1	activates>	MAP1LC3B
+STAT1	activates>	ATG7
+PTPRJ	inhibits>	MAPK3
+PTPRJ	inhibits>	MAPK1
+PRKACA	inhibits>	MAP1LC3B
+PLCG1	activates>	PRKACA

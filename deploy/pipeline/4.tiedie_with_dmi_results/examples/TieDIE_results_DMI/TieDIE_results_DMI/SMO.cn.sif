@@ -1,0 +1,12 @@
+FYN	activates>	PRKACA
+SRC	activates>	STAT1
+SMO	activates>	PRKACA
+STAT1	activates>	ATG7
+SMO	activates>	CXCL1
+FYN	activates>	STAT1
+SMO	activates>	FYN
+SMO	activates>	GNG12
+GNG12	inhibits>	PRKACA
+CXCL1	inhibits>	PRKACA
+PRKACA	inhibits>	MAP1LC3B
+SMO	activates>	SRC

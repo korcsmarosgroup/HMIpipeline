@@ -1,6 +1,0 @@
-STAT1	activates>	ATG7
-FOXO1	activates>	ATG7
-CTNND1	activates>	CTNNB1
-CTNNB1	activates>	FOXO1
-CTNND1	activates>	SRC
-SRC	activates>	STAT1

@@ -1,0 +1,17 @@
+PTPN2	activates>	PDGFRB
+E2F1	activates>	MAP1LC3B
+STAT1	activates>	ATG7
+PTPN2	inhibits>	STAT3
+STAT3	activates>	STAT1
+SPI1	activates>	ATG7
+FYN	activates>	PRKACA
+STAT3	activates>	SPI1
+PDGFRB	activates>	STAT1
+PTPN2	inhibits>	SRC
+EGFR	activates>	E2F1
+SRC	activates>	STAT1
+PTPN2	inhibits>	EGFR
+PTPN2	inhibits>	FYN
+EGFR	activates>	STAT1
+FYN	activates>	STAT1
+PRKACA	inhibits>	MAP1LC3B

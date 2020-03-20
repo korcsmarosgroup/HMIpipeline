@@ -1,9 +1,0 @@
-STAT1	activates>	ATG7
-ATG7	activates>	MAP1LC3B
-STAT2	activates>	STAT1
-IFNGR1	activates>	STAT1
-IFNAR1	activates>	STAT1
-IFNAR1	activates>	IFNGR1
-TYK2	activates>	STAT1
-IFNAR1	activates>	TYK2
-IFNAR1	activates>	STAT2

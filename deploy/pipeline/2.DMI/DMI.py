@@ -1,10 +1,10 @@
 from pyfasta import Fasta
 import re
 
-def rename(fasta_key):
-    fasta_key = fasta_key.split("|")
-    fasta_key = fasta_key[1]
-    return fasta_key
+# def rename(fasta_key):
+#     fasta_key = fasta_key.split("|")
+#     fasta_key = fasta_key[0]
+#     return fasta_key
 
 # fasta processing -> human.keys() print the keys, human[key_name] print the sequence
 human = Fasta('human_receptors.fasta')
@@ -46,10 +46,10 @@ for key in human.keys():
     for motif in elm_regex:
         match = re.search(str(elm_regex[motif]), str(human[key]))
         if match:
-            if rename(key) not in uniprot_motif:
-                uniprot_motif[rename(key)] = []
+            if key not in uniprot_motif:
+                uniprot_motif[key] = []
             #print("%s;%s;%s"%(motif,match.start(),match.end()))
-            uniprot_motif[rename(key)].append((motif,str(match.start()),str(match.end())))
+            uniprot_motif[key].append((motif,str(match.start()),str(match.end())))
  
 
 with open ("MPDMIresult.tsv", "w") as output:

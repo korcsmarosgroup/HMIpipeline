@@ -17,3 +17,4 @@ pip3 install --upgrade argparse
 pip3 install --upgrade minio
 pip3 install --upgrade python-qpid-proton
 pip3 install --upgrade pyfasta
+pip3 install --upgrade networkx

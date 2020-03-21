@@ -1,7 +1,6 @@
 from __future__ import print_function
 from __future__ import division
 #from __future__ import unicode_literals
-from numpy import genfromtxt, dot
 import numpy as np
 import sys
 import math
@@ -34,7 +33,7 @@ class Kernel:
         for kernel in kernel_files.split(":"):
             # numpy's genfromtxt format. Relatively memory-intensive
             # FIXME: add option for matlab .mat compressed file format
-            self.kernels[kernel] = genfromtxt(kernel,delimiter="\t")[1:,1:]
+            self.kernels[kernel] = np.genfromtxt(kernel,delimiter="\t")[1:,1:]
             self.labels[kernel] = None
             fh = open(kernel,'r')
             # get the header line
@@ -80,7 +79,7 @@ class Kernel:
                 array.append(0)
 
         # Matrix mulitply op
-        value = dot(self.kernels[kernel], array)
+        value = np.dot(self.kernels[kernel], array)
 
         # Convert back to a hash and return diffused heats
         return_vec = {}

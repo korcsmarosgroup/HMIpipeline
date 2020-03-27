@@ -21,18 +21,29 @@ After that, you can use all of the scripts which are inside the pipeline:
 
 1 Domain-domain interactions (DDI)
 
-- You need to go to the folder and run this command: `python3 DDIbasedPPIprediction.py`
+- You need to run the following commands:<br>
+`cd pipeline/1.DDI/`<br>
+`python3 DDIbasedPPIprediction.py`
 
 2 Domain-motif interactions (DMI)
 
-- You need to go to the folder and run this command: `python3 DMI.py`
+- You need to run the following commands:<br>
+`cd pipeline/2.DMI/`<br>
+`python3 DMI.py`
 
-3 IUPred filtering
+3 Structural filtering
 
-- You need to go to the folder and run this command: `python3 src/idr_prediction.py --hmi_prediction resources/MPDMIresult.tsv --resources resources/ --results iupred2a_v3/results`
+- You need to run the following commands:<br>
+`cd pipeline/3.Structural_filtering/structural_filtering/`<br>
+`python3 src/structural_filtering_prediction.py --hmi_prediction resources/MPDMIresult.tsv --resources resources/ --results results/`
 
 4 TIEDIE
 
-- There is an own documentation for this step of the pipeline.
+- You need to run the following commands:<br>
+`cd pipeline/4.tiedie_with_dmi_results/examples/TieDIE_results_DDI/`<br>
+`make`<br>
+or<br>
+`cd pipeline/4.tiedie_with_dmi_results/examples/TieDIE_results_DMI/`<br>
+`make`<br>
 
 If you are done with everything, just quit from the container with the following command: `Ctrl+d`

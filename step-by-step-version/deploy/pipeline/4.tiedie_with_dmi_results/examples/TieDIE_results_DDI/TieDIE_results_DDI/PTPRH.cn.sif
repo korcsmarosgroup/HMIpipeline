@@ -1,0 +1,7 @@
+PTK2	activates>	STAT1
+STAT1	activates>	ATG7
+PTPRH	inhibits>	PTK2
+PTPRH	inhibits>	SRC
+LCK	activates>	STAT1
+PTPRH	inhibits>	LCK
+SRC	activates>	STAT1

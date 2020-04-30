@@ -1,0 +1,8 @@
+E2F1	activates>	MAP1LC3B
+TP73	activates>	TP53INP1
+YAP1	activates>	CTNNB1
+FOXO1	activates>	ATG7
+CTNNB1	activates>	FOXO1
+TP73	activates>	E2F1
+TP53INP1	activates>	MAP1LC3B
+YAP1	activates>	TP73

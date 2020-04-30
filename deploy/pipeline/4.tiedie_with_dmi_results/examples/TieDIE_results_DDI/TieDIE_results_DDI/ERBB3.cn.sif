@@ -1,6 +1,0 @@
-ERBB3	activates>	PLCG1
-STAT1	activates>	ATG7
-ERBB3	activates>	JAK2
-JAK2	activates>	STAT1
-PLCG1	activates>	PRKACA
-PRKACA	inhibits>	MAP1LC3B

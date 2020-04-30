@@ -1,6 +1,0 @@
-STAT1	activates>	ATG7
-TYK2	activates>	STAT1
-GHR	activates>	TYK2
-PLCG1	activates>	PRKACA
-GHR	activates>	PLCG1
-PRKACA	inhibits>	MAP1LC3B

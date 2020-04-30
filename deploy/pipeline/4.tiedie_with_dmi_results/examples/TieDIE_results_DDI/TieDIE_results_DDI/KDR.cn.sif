@@ -1,6 +1,0 @@
-STAT1	activates>	ATG7
-KDR	activates>	SRC
-SRC	activates>	STAT1
-KDR	activates>	PLCG1
-PLCG1	activates>	PRKACA
-PRKACA	inhibits>	MAP1LC3B

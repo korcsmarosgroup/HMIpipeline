@@ -1,6 +1,0 @@
-SPI1	activates>	ATG7
-JUN	activates>	SPI1
-DVL1	activates>	JUN
-FOXO1	activates>	ATG7
-SMAD3	activates>	FOXO1
-DVL1	activates>	SMAD3

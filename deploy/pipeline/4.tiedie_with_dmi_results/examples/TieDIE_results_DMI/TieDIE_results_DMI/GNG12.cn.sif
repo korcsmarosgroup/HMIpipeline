@@ -1,5 +1,0 @@
-FOXO1	activates>	ATG7
-AKT2	inhibits>	FOXO1
-GNG12	inhibits>	PRKACA
-PRKACA	inhibits>	MAP1LC3B
-GNG12	activates>	AKT2

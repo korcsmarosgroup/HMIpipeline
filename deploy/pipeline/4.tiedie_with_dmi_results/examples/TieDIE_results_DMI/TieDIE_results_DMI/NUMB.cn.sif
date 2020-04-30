@@ -1,9 +1,0 @@
-MDM2	activates>	FOXO1
-TP53	activates>	TP53INP1
-E2F1	activates>	MAP1LC3B
-MDM2	activates>	E2F1
-FOXO1	activates>	ATG7
-TP53INP1	activates>	MAP1LC3B
-TP53	inhibits>	E2F1
-NUMB	activates>	TP53
-NUMB	inhibits>	MDM2

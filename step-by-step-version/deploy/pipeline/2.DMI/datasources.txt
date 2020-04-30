@@ -1,0 +1,24 @@
+Data used and description
+
+Input files : 
+
+465 CDMP CLST ids corresponding to 562 CLST-pfamdomain interactions;
+see Metaproteome_pfam_forDMI.tab
+
+human receptor protein sequences ; see human_receptors.fasta
+
+Gold standard domain-motif interaction pairs from ELM;
+see elm_motif.tsv
+see elm_interaction_domains.tsv
+
+Script :
+
+Run DMI prediction script (DMI.py)
+
+Output files : 
+
+16591 interactions corresponding to 6 bacterial CLSTids and 7865 host proteins
+see MPDMIresult.tsv
+
+
+

@@ -1,0 +1,5 @@
+STAT1	activates>	ATG7
+CSF3R	activates>	JAK2
+TYK2	activates>	STAT1
+JAK2	activates>	STAT1
+CSF3R	activates>	TYK2

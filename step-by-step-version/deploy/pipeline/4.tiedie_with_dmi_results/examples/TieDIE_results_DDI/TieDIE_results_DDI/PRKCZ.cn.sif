@@ -1,0 +1,8 @@
+MAPK3	activates>	E2F1
+SP1	activates>	E2F1
+E2F1	activates>	MAP1LC3B
+PRKCZ	activates>	MAPK1
+PRKCZ	activates>	MAPK3
+STAT1	activates>	ATG7
+MAPK1	activates>	STAT1
+PRKCZ	activates>	SP1

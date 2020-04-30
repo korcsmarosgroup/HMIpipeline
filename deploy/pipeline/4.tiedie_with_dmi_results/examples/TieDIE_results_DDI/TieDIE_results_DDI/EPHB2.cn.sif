@@ -1,5 +1,0 @@
-PTK2	activates>	STAT1
-STAT1	activates>	ATG7
-EPHB2	inhibits>	PTK2
-EPHB2	activates>	SRC
-SRC	activates>	STAT1

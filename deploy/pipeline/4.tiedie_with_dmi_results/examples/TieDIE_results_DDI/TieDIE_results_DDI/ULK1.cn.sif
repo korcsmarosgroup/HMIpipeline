@@ -1,8 +1,0 @@
-ULK1	inhibits>	PRKAA1
-PRKAA1	activates>	FOXO1
-ULK1	activates>	GABARAP
-FOXO1	activates>	ATG7
-PRKAA1	activates>	PRKACA
-GABARAP	activates>	ATG7
-ATG7	activates>	MAP1LC3B
-PRKACA	inhibits>	MAP1LC3B

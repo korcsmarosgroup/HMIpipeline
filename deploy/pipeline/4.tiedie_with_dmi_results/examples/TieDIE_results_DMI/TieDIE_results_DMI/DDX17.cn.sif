@@ -1,8 +1,0 @@
-MDM2	activates>	FOXO1
-E2F1	activates>	MAP1LC3B
-MDM2	activates>	E2F1
-DDX17	activates>	MDM2
-ESR1	inhibits>	FOXO1
-FOXO1	activates>	ATG7
-ESR1	activates>	E2F1
-DDX17	activates>	ESR1

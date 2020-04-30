@@ -1,5 +1,0 @@
-E2F1	activates>	MAP1LC3B
-FOXO1	activates>	ATG7
-MDM2	activates>	FOXO1
-MDM2	activates>	E2F1
-NCL	inhibits>	MDM2

@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+ipython = "*"
+ipdb = "*"
+
+[packages]
+numpy = "*"
+pandas = "*"
+scipy = "*"
+matplotlib = "*"
+mlxtend = "*"
+xgboost = "*"
+scikit-learn = "*"
+biopython = "*"
+minio = "*"
+python-qpid-proton = "*"
+pyfasta = "*"
+networkx = "*"
+
+[requires]
+python_version = "3.6"

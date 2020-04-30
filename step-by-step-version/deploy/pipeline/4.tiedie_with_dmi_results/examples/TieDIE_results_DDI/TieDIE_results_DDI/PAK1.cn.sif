@@ -1,0 +1,12 @@
+STAT1	activates>	ATG7
+E2F1	activates>	MAP1LC3B
+PAK1	inhibits>	MAPK1
+FOXO1	activates>	ATG7
+MAPK1	activates>	STAT1
+CTNNB1	activates>	FOXO1
+ESR1	activates>	E2F1
+ESR1	inhibits>	FOXO1
+PAK1	activates>	ABL1
+ABL1	activates>	STAT1
+PAK1	activates>	ESR1
+PAK1	activates>	CTNNB1

@@ -1,0 +1,5 @@
+E2F1	activates>	MAP1LC3B
+FOXO1	activates>	ATG7
+ESR1	activates>	E2F1
+RPS6KB1	activates>	ESR1
+ESR1	inhibits>	FOXO1

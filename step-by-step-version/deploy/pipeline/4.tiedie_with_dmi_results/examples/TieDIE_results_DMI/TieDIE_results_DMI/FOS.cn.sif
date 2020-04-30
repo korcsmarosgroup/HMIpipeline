@@ -1,0 +1,14 @@
+JUN	activates>	SPI1
+MYC	activates>	E2F1
+DUSP6	activates>	FOXO1
+E2F1	activates>	MAP1LC3B
+NR4A1	activates>	E2F1
+FOS	activates>	JUN
+STAT1	activates>	ATG7
+FOXO1	activates>	ATG7
+FOS	inhibits>	MYC
+SPI1	activates>	ATG7
+FOS	activates>	NR4A1
+FOS	activates>	CXCR4
+CXCR4	activates>	STAT1
+FOS	activates>	DUSP6

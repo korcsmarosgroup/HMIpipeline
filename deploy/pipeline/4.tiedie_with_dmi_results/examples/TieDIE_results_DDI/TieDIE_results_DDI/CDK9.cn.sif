@@ -1,9 +1,0 @@
-E2F1	activates>	MAP1LC3B
-SPI1	activates>	ATG7
-RB1	inhibits>	SPI1
-TP53	activates>	TP53INP1
-TP53	inhibits>	E2F1
-CDK9	activates>	RB1
-TP53INP1	activates>	MAP1LC3B
-RB1	inhibits>	E2F1
-CDK9	activates>	TP53

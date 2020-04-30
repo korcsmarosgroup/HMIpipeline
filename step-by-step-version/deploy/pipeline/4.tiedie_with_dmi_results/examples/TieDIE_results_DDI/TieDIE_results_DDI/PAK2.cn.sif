@@ -1,0 +1,3 @@
+SPI1	activates>	ATG7
+JUN	activates>	SPI1
+PAK2	activates>	JUN

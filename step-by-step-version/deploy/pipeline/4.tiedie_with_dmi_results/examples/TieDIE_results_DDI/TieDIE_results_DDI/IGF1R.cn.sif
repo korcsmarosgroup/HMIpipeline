@@ -1,0 +1,13 @@
+PDPK1	activates>	PRKACA
+STAT1	activates>	ATG7
+IGF1R	activates>	CSK
+PRKCD	activates>	STAT1
+FOXO1	activates>	ATG7
+MAPK1	activates>	STAT1
+IGF1R	activates>	PRKCD
+CTNNB1	activates>	FOXO1
+IGF1R	activates>	PDPK1
+CSK	activates>	PRKACA
+IGF1R	activates>	MAPK1
+IGF1R	inhibits>	CTNNB1
+PRKACA	inhibits>	MAP1LC3B

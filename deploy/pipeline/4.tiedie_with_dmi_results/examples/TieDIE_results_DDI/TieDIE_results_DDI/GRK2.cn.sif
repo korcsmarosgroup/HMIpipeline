@@ -1,9 +1,0 @@
-STAT1	activates>	ATG7
-MAPK14	inhibits>	PRKACA
-MAPK14	activates>	STAT1
-HBP1	activates>	MAP1LC3B
-GRK2	inhibits>	MAPK14
-GRK2	activates>	SMO
-MAPK14	activates>	HBP1
-SMO	activates>	PRKACA
-PRKACA	inhibits>	MAP1LC3B

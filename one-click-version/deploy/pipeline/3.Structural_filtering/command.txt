@@ -1,0 +1,1 @@
+python3 '~path/iupred2a_v3/src/idr_prediction.py' --hmi_prediction '~path/iupred2a_v3/resources/MPDMIresult.tsv' --resources '~path/iupred2a_v3/resources/' --results '~path/iupred2a_v3/results/'

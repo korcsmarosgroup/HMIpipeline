@@ -1,5 +1,0 @@
-GNG12	inhibits>	PRKACA
-AGTR1	activates>	GNG12
-AGTR1	activates>	PLCG1
-PLCG1	activates>	PRKACA
-PRKACA	inhibits>	MAP1LC3B

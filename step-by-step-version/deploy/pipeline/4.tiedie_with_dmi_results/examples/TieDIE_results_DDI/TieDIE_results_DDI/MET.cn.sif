@@ -1,0 +1,12 @@
+PTK2	activates>	STAT1
+STAT1	activates>	ATG7
+MET	activates>	PTK2
+STAT3	activates>	STAT1
+SPI1	activates>	ATG7
+MET	activates>	SRC
+STAT3	activates>	SPI1
+MET	activates>	STAT3
+SRC	activates>	STAT1
+MET	activates>	PLCG1
+PLCG1	activates>	PRKACA
+PRKACA	inhibits>	MAP1LC3B

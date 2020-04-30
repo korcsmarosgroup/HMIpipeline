@@ -1,7 +1,0 @@
-IL7R	activates>	JAK3
-JAK3	activates>	STAT1
-STAT1	activates>	ATG7
-IL7R	activates>	FYN
-FYN	activates>	PRKACA
-FYN	activates>	STAT1
-PRKACA	inhibits>	MAP1LC3B

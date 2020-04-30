@@ -1,0 +1,9 @@
+STAT1	activates>	ATG7
+ERBB2	activates>	PRKACA
+IQGAP1	inhibits>	CTNNB1
+FOXO1	activates>	ATG7
+MAPK1	activates>	STAT1
+CTNNB1	activates>	FOXO1
+PRKACA	inhibits>	MAP1LC3B
+IQGAP1	activates>	MAPK1
+IQGAP1	activates>	ERBB2

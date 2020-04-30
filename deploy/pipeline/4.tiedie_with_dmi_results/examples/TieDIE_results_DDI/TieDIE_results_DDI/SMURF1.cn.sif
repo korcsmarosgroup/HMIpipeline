@@ -1,6 +1,0 @@
-SMURF1	inhibits>	SMAD4
-FOXO1	activates>	ATG7
-SMAD3	activates>	FOXO1
-SMAD4	activates>	ATF1
-ATF1	activates>	MAP1LC3B
-SMURF1	activates>	SMAD3

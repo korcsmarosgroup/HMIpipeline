@@ -1,0 +1,6 @@
+IRF1	activates>	STAT1
+E2F1	activates>	MAP1LC3B
+STAT1	activates>	ATG7
+CHEK2	activates>	E2F1
+KPNA2	activates>	CHEK2
+KPNA2	activates>	IRF1

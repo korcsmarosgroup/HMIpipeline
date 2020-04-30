@@ -1,5 +1,0 @@
-STAT1	activates>	ATG7
-EPHA4	activates>	FYN
-FYN	activates>	STAT1
-FYN	activates>	PRKACA
-PRKACA	inhibits>	MAP1LC3B

@@ -1,9 +1,0 @@
-PARP1	activates>	E2F1
-E2F1	activates>	MAP1LC3B
-PARP1	inhibits>	FOXO1
-FOXO1	activates>	ATG7
-PARP1	activates>	ATM
-ATM	activates>	E2F1
-TP53INP1	activates>	MAP1LC3B
-E2F1	activates>	TP53INP1
-ATG7	activates>	MAP1LC3B

@@ -1,6 +1,0 @@
-ITCH	inhibits>	CFLAR
-STAT1	activates>	ATG7
-ATG3	activates>	MAP1LC3B
-CFLAR	inhibits>	ATG3
-CXCR4	activates>	STAT1
-ITCH	activates>	CXCR4

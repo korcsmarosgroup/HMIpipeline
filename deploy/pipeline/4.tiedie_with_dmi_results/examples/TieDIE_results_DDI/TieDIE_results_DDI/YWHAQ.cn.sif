@@ -1,7 +1,0 @@
-E2F1	activates>	MAP1LC3B
-YWHAH	inhibits>	FOXO1
-FOXO1	activates>	ATG7
-YWHAQ	activates>	E2F1
-TP53INP1	activates>	MAP1LC3B
-E2F1	activates>	TP53INP1
-YWHAQ	activates>	YWHAH

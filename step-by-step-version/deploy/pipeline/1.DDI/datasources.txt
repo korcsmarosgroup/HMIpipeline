@@ -1,0 +1,23 @@
+Data used and descriptions
+
+Input files : 
+
+465 CDMP CLST ids corresponding to 562 CLST-pfamdomain associations; see file Metaproteome_pfam_forDDI.txt
+
+8008 human receptor protein corresponding to 13145 protein-domain associations; see file humanprots_pfam_forDDI.txt
+
+2989 domain-domain gold standard interaction datasets (HC) from DOMINE (2010 release)https://manticore.niehs.nih.gov/cgi-bin/Domine?page=download;
+see file pfam_interactions
+
+Script:
+
+Run DDI prediction script (DDIbasedPPIprediction.py)
+
+Output files : 
+
+Output : 7584 interactions corresponding to 141 bacterial CLSTids and 1820 host proteins
+see file DDIpreds_metaproteome.txt
+
+
+
+

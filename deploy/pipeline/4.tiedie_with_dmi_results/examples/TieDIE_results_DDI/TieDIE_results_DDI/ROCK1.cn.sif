@@ -1,8 +1,0 @@
-PTK2	activates>	STAT1
-ROCK1	activates>	PTK2
-STAT1	activates>	ATG7
-E2F1	activates>	MAP1LC3B
-PTEN	activates>	E2F1
-ROCK1	activates>	PTEN
-MAPK8	activates>	STAT1
-ROCK1	activates>	MAPK8

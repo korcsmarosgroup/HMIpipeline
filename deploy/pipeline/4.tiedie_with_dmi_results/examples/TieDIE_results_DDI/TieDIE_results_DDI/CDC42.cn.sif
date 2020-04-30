@@ -1,8 +1,0 @@
-STAT1	activates>	ATG7
-E2F1	activates>	MAP1LC3B
-MAPK9	activates>	STAT1
-PTEN	activates>	E2F1
-MAPK8	activates>	STAT1
-CDC42	activates>	PTEN
-CDC42	activates>	MAPK9
-CDC42	activates>	MAPK8

@@ -1,0 +1,12 @@
+E2F1	activates>	MAP1LC3B
+PRKAA1	activates>	FOXO1
+PTEN	activates>	E2F1
+TP53	activates>	TP53INP1
+TP53	inhibits>	E2F1
+FOXO1	activates>	ATG7
+PRKAA1	activates>	PRKACA
+TP53INP1	activates>	MAP1LC3B
+PRKACA	inhibits>	MAP1LC3B
+STK11	activates>	PTEN
+STK11	activates>	TP53
+STK11	activates>	PRKAA1

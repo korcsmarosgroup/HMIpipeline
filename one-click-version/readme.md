@@ -54,6 +54,7 @@ Now you can choose to run:
 - **ONE CLICK STEP-BY-STEP**: (different from the _step-by-step_ from the previous folder) in this mode, you will provide the input according to the step you want to run. You will run every step separatedly.
 
 See the information about how to run any step in the next sections.
+In the folder _user_inputs_ you will find the example input files. Use them as a model to provide your own inputs.
 In the last section you will find a tutorial about how to run a short example with inputs provided here.
 
 ## COMPLETE MODE
@@ -252,14 +253,11 @@ By default, MicrobioLink uses the number of bacterial proteins that each host re
 
 In this section, you will se how to do a testing simmulation with the provided example files. It is a reduced simmulation, only to perform MicrobioLink in a shorter time and to show how the input and output files must be. It doesn't have biological meaning.
 
-The example files are found in the folder _example_files_. For performing the example, paste the file from the example folder into the folder _user_inputs_ according with the simulation you want to perform. Follow the steps above:
+The example files are found in the folder _user_inputs_. For performing the example,follow the steps above:
 
-### Complete simulation example
+### Complete mode example
 
 > **_INPUT FILES_**:
->  Paste all the input files mentioned above in the folder "user_input", or run the following script:
->
-> `cp example_files/Metaproteome.txt example_files/humanDDI.txt example_files/humanDMI.fasta example_files/Tie_Die_downstream.input user_inputs/`
 >
 > In the file `USER_complete_mode.sh` complete the variables as following:
 >
@@ -276,7 +274,6 @@ The example files are found in the folder _example_files_. For performing the ex
 >
 > save  
 > run `sh USER_complete_mode.sh`
-
 
 >**_OUTPUT_**: the output files will be found in the _outputs/_ folder.
 >

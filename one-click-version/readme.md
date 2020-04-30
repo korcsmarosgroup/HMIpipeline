@@ -128,12 +128,12 @@ Variable in the main file:
 `step="DDI"`
 
 > **_INPUT FILES_** :
-
+>
 >  -- **input_file1**:  same as _bacterial_proteins_. This file correspond to bacterial proteins part of your sample. It must include the protein ID it correspondent PFAM. 
 >  Include the variable _col_id1_ and _col_pf1_ to indicate in which column each one is located.
-
+>
 > -- **input_file2**:  same as _human_proteins_DDI_. If you choose to perform the domain-domain interaction prediction, you will have to input this file. This file correspond to the receptor host proteins. It must include the protein ID and its PFAM correspondence.
-
+>
 > Include the variable _col_id2_ and _col_pf2_ to indicate in which column each one is located.
 >
 >> input_file1= bacterial proteins file
@@ -149,9 +149,9 @@ Variable in the main file:
 >> col_pf2=  number of host protein PFAM column
 
 > **_USED DATABASE_**
-
-> - **pfam_interactions.txt**: this file contains the complete database to use as reference to the predictions by default. It was obtained in PFAM database. If you want to change it, find it at _/deploy/pipeline/1.DDI_
 >
+> - **pfam_interactions.txt**: this file contains the complete database to use as reference to the predictions by default. It was obtained in PFAM database. If you want to change it, find it at _/deploy/pipeline/1.DDI_
+
 >**_OUTPUT_**:   _DDIpreds.txt_ and in _DDIpreds_with_info.txt_.
 
 ### 2 Domain-motif interactions (DMI)
@@ -160,23 +160,18 @@ Variable in the main file:
 `step="DMI"`
 
 > **_INPUT FILES_** :
-
+>
 >  - **input_file1**:  same as _bacterial_proteins_. This file correspond to bacterial proteins part of your sample. It must include the protein ID it correspondent PFAM. 
 >  Include the variable _col_id1_ and _col_pf1_ to indicate in which column each one is located.
-
+>
 > - **input_file2**: If you choose to perform the domain-motif interaction prediction, you will have to input this file. This file correspond to the sequence of receptor host proteins. It has the gene ID as a fasta header and the aminoacid sequence above.
 > The variables _col_id2_ and _col_pf2_ are not needed. Keep it as 0.
 > 
 >> input_file1= bacterial proteins file
-
 >> col_id1= number of bacterial protein ID column
-
 >> col_pf1= number of bacterial protein PFAM column
-
 >> input_file2= host protein sequences fasta file 
-
 >> col_id2=0
-
 >> col_pf2=0
 
 >**_USED DATABASE_**
@@ -192,21 +187,21 @@ Variable in the main file:
 In this step, you will perform the _structural filtering of the interactions obtained in the former step_. Structural filtering is applied only to DMI, not to DDI.
 
 > **_INPUT FILES_** :
-
+>
 >  - **input_file1**: This file contains the final domain-motif interactions between the bacterial and host receptor proteins. See the file _MPDMIresult.tsv_ to more information about how the input must be.
-
+>
 >  The variables _input_file2_ and col_* are not needed and you can leave it empty ("").
 >  
 >> input_file1= DMI file
-
+>>
 >> col_id1=0
-
+>>
 >> col_pf1=0
-
+>>
 >> input_file2=" "
-
+>>
 >> col_id2=0
-
+>>
 >> col_pf2=0
 >
 > **_OUTPUT_** : _DMI_filtered.cvs_: This file contains the filtered domain-motif interactions between the bacterial and host receptor proteins. Contains columns with bacterial ID, domains and motifs information.

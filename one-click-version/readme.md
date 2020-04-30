@@ -9,7 +9,7 @@ or
 - python (version >= 3.6)
 
 
-## **Installing and running the pipeline**
+## **Installing the pipeline**
 
 ##### Using docker:
 1) Intall [docker](https://docs.docker.com/engine/install/) and execute the [docker post-installation](https://docs.docker.com/engine/install/linux-postinstall/).
@@ -40,15 +40,23 @@ pip install -r requirements.txt
 5) Execute `sh USER_complete_mode.sh` or `sh USER_stepbysetp_mode.sh`, your outputs will be saved into the `output` folder.
 6) Remember, to exit your virtual environment, type: `deactivate`.
 
+
+## RUNNING THE PIPELINE:
+
 Everytime you run the pipeline, activate the virtual environment by executing the following command. Be sure your terminal is located in the HMI pipeline folder.
 ```bash
 source .venv/bin/activate
 ```
 
-Now you can choose to run the complete pipeline, passing through all the steps, or running the steps separatedly.
+Now you can choose to run:
+- **COMPLETE MODE**: in this mode, you will only provide the input files and run it. It will pass through all the steps and return you a final network
 
+- **ONE CLICK STEP-BY-STEP**: (different from the _step-by-step_ from the previous folder) in this mode, you will provide the input according to the step you want to run. You will run every step separatedly.
 
-##  COMPLETE MODE
+See the information about how to run any step in the next sections.
+In the last section you will find a tutorial about how to run a short example with inputs provided here.
+
+## COMPLETE MODE
 
 This section will describe the execution of the default running of all steps automatized. You only need to provide input files containing bacterial proteins, receptors and target genes and, after the run, you will have a complete host-microbiome network.
 

@@ -20,6 +20,9 @@ or
 5) Execute `sh USER_complete_mode.sh` or `sh USER_stepbysetp_mode.sh`, your outputs will be saved into the `output` folder.
 
 ##### Using python directly:
+
+In the first time that you use the pipeline, configure the virtual environment as showed below:
+
 1) In order to separate your OS python from this project's python, let's create a virtual environment:
 ```bash
 python3 -m venv .venv
@@ -37,7 +40,13 @@ pip install -r requirements.txt
 5) Execute `sh USER_complete_mode.sh` or `sh USER_stepbysetp_mode.sh`, your outputs will be saved into the `output` folder.
 6) Remember, to exit your virtual environment, type: `deactivate`.
 
+For everytime you run the pipeline, enter in the virtual environment by executing the following command. Be sure your terminal is located in the HMI pipeline folder.
+```bash
+source .venv/bin/activate
+```
+
 You can choose to run the complete pipeline, passing through all the steps, or running the steps separatedly.
+
 
 ##  COMPLETE MODE
 

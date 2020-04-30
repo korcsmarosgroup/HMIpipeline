@@ -76,8 +76,8 @@ More about needed files and parameters for complete running:
 > Include the variable _host_column_ID_ and _host_column_PFAM_ to indicate in which column each one is located.
 >
 > - **human_proteins_DMI**: If you choose to perform the domain-motif interaction prediction, you will have to input this file. This file correspond to the sequence of receptor host proteins. It has the gene ID as a fasta header and the aminoacid sequence above.
-
-> -- **target_genes_file**: List of your target genes to TieDie execution. It must have the gene name in the 1th column, gene weight in the 2nd column and if it its status is + or - (up or downregulated, for example).
+>
+> - **target_genes_file**: List of your target genes to TieDie execution. It must have the gene name in the 1th column, gene weight in the 2nd column and if it its status is + or - (up or downregulated, for example).
 > The gene weight in the example file is the differential expression between Crohn's disease and healthy condition. You can choose a weight according to your study.
 
 
@@ -96,7 +96,7 @@ More about needed files and parameters for complete running:
 
 ##  STEP-BY-STEP MODE
 
-If you want to run the steps separatedly, you will open the main file `USER_stepbystep_mode.sh` and complete the variables with the information about files and parameters acording to the step that you will run. 
+If you want to run the steps separatedly, you will open the main file `USER_stepbystep_mode.sh` and complete the variables with the information about files and parameters acording to the step that you will run (find it described below). 
 
 Then, you will run the script:
 
@@ -106,20 +106,20 @@ Then, you will run the script:
 All your input files must be in the folder "user_input". 
 Inside the file `USER_stepbystep_mode.sh` you will find various variables to complete in order to run the script.
 
-- `step=`
--- complete according to the step that you want to perform.
--- Options: "DDI", "DMI", "structural_filtering", "tiedie_input", "tiedie"
--- find above the description for each option
+#### `step=`
+- *Options:* "DDI", "DMI", "structural_filtering", "tiedie_input", "tiedie"
+- complete according to the step that you want to perform.
+- find above the description for each option
 
-- `id_format=`
--- your gene or protein identification have to be in Uniprot ID or Gene Symbol/Name format. Complete according with your data.
--- Options: "genename" or "uniprot"
+#### `id_format=`
+- *Options:* "genename" or "uniprot"
+- your gene or protein identification have to be in Uniprot ID or Gene Symbol/Name format. Complete according with your data.
 
-- `Input variables`
--- You will complete this variables according to the step you are performing. The options and descriptions are detailed in the steps above.
--- Variables: input_file1, col_id1, col_pf1, input_file2, col_id2 and col_pf2
+#### `Input variables`
+- You will complete this variables according to the step you are performing. The options and descriptions are detailed in the steps above.
+- Variables: input_file1, col_id1, col_pf1, input_file2, col_id2 and col_pf2
 
-The information about each step is found above:
+The information about each step is found below:
 
 ### 1 Domain-domain interactions (DDI)
 
@@ -128,19 +128,18 @@ Variable in the main file:
 
 > **_INPUT FILES_** :
 >
->  -- **input_file1**:  same as _bacterial_proteins_. This file correspond to bacterial proteins part of your sample. It must include the protein ID it correspondent PFAM. 
+>  - **input_file1**:  same as _bacterial_proteins_. This file correspond to bacterial proteins part of your sample. It must include the protein ID it correspondent PFAM. 
 >  Include the variable _col_id1_ and _col_pf1_ to indicate in which column each one is located.
 >
-> -- **input_file2**:  same as _human_proteins_DDI_. If you choose to perform the domain-domain interaction prediction, you will have to input this file. This file correspond to the receptor host proteins. It must include the protein ID and its PFAM correspondence.
->
+> - **input_file2**:  same as _human_proteins_DDI_. If you choose to perform the domain-domain interaction prediction, you will have to input this file. This file correspond to the receptor host proteins. It must include the protein ID and its PFAM correspondence.
 > Include the variable _col_id2_ and _col_pf2_ to indicate in which column each one is located.
 >
->> input_file1= bacterial proteins file
->> col_id1= number of bacterial protein ID column
->> col_pf1= number of bacterial protein PFAM column
->> input_file2= host protein file 
->> col_id2=  number of host protein ID column
->> col_pf2=  number of host protein PFAM column
+>> input_file1= bacterial proteins file  
+>> col_id1= number of bacterial protein ID column  
+>> col_pf1= number of bacterial protein PFAM column  
+>> input_file2= host protein file  
+>> col_id2=  number of host protein ID column  
+>> col_pf2=  number of host protein PFAM column  
 
 > **_USED DATABASE_**
 >
@@ -161,12 +160,12 @@ Variable in the main file:
 > - **input_file2**: If you choose to perform the domain-motif interaction prediction, you will have to input this file. This file correspond to the sequence of receptor host proteins. It has the gene ID as a fasta header and the aminoacid sequence above.
 > The variables _col_id2_ and _col_pf2_ are not needed. Keep it as 0.
 > 
->> input_file1= bacterial proteins file
->> col_id1= number of bacterial protein ID column
->> col_pf1= number of bacterial protein PFAM column
->> input_file2= host protein sequences fasta file 
->> col_id2=0
->> col_pf2=0
+>> input_file1= bacterial proteins file   
+>> col_id1= number of bacterial protein ID column  
+>> col_pf1= number of bacterial protein PFAM column  
+>> input_file2= host protein sequences fasta file   
+>> col_id2=0  
+>> col_pf2=0  
 
 >**_USED DATABASE_**
 > - **elm_motif.tsv** and **elm_interaction_domains.tsv**: this file contains the complete database to use as reference to the predictions. It was obtained in ELM database. If you want to change it, find it at _/deploy/pipeline/2.DMI_
@@ -184,14 +183,14 @@ In this step, you will perform the _structural filtering of the interactions obt
 >
 >  - **input_file1**: This file contains the final domain-motif interactions between the bacterial and host receptor proteins. See the file _MPDMIresult.tsv_ to more information about how the input must be.
 >
->  The variables _input_file2_ and col_* are not needed and you can leave as zero (0).
+>  - The variables _input_file2_ and col_* are not needed and you can leave as zero (0).
 >  
->> input_file1= DMI file
->> col_id1=0
->> col_pf1=0
->> input_file2=" "
->> col_id2=0
->> col_pf2=0
+>> input_file1= DMI file  
+>> col_id1=0  
+>> col_pf1=0  
+>> input_file2=" "  
+>> col_id2=0  
+>> col_pf2=0  
 
 > **_OUTPUT_** : _DMI_filtered.cvs_: This file contains the filtered domain-motif interactions between the bacterial and host receptor proteins. Contains columns with bacterial ID, domains and motifs information.
 
@@ -209,12 +208,12 @@ By default, MicrobioLink uses the number of bacterial proteins that each host re
  
 >  - **input_file1**:  This file contains interactions between bacterial and host proteins, with its id. Indicate in the variables _col_id1_ the number of column with bacterial proteins and _col_id2_  the number of column with host proteins, as showed above:
 >
->> input_file1= file
->> col_id1= number of bacterial protein ID column
->> col_pf1=0
->> input_file2=" "
->> col_id2= number of host protein ID column
->> col_pf2=0
+>> input_file1= file  
+>> col_id1= number of bacterial protein ID column  
+>> col_pf1=0  
+>> input_file2=" "  
+>> col_id2= number of host protein ID column  
+>> col_pf2=0  
 
 > **_OUTPUT FILE_**: contains the information of the **upstream** proteins, the host proteins connected with bacterial proteins. It is the default input file for TieDie. This file has 3 columns:1) protein ID (it has tp be in Gene Symbol or Uniprot ID); 2) weight of the protein (with how much bacterial protein it is connected, by default); 3) if the protein is positive (+) or negative (-)  according to the study context (they are all + for MicrobioLink default).
 
@@ -230,12 +229,12 @@ By default, MicrobioLink uses the number of bacterial proteins that each host re
 >
 > The variables _col_ ... are not needed. Keep it as 0.
 > 
->> input_file1= upstream file
->> col_id1=0
->> col_pf1=0
->> input_file2= downstream file
->> col_id2=0
->> col_pf2=0
+>> input_file1= upstream file  
+>> col_id1=0  
+>> col_pf1=0  
+>> input_file2= downstream file  
+>> col_id2=0  
+>> col_pf2=0  
 >
 > **Obs.:** it is normal to return the following message: "_Warning: input heat node Q5MNZ9 not in the network and will be ignored..._"
  
@@ -256,18 +255,18 @@ The example files are found in the folder _example_files_. For performing the ex
 >
 > In the file `USER_complete_mode.sh` complete the variables as following:
 >
->> bacterial_proteins="Metaproteome.txt"
->> bacterial_column_id=1
->> bacterial_column_pf=2
->> human_proteins_DDI="humanDDI.txt"
->> human_column_id=1
->> human_column_pf=2
->> human_proteins_DMI="humanDMI.fasta"
->> target_genes_file="Tie_Die_downstream.input"
->> DDInDMI="ALL"
->> id_format="uniprot"
+>> bacterial_proteins="Metaproteome.txt"  
+>> bacterial_column_id=1  
+>> bacterial_column_pf=2  
+>> human_proteins_DDI="humanDDI.txt"  
+>> human_column_id=1  
+>> human_column_pf=2  
+>> human_proteins_DMI="humanDMI.fasta"  
+>> target_genes_file="Tie_Die_downstream.input"  
+>> DDInDMI="ALL"  
+>> id_format="uniprot"  
 >
-> save
+> save  
 > run `sh USER_complete_mode.sh`
 
 
@@ -275,30 +274,30 @@ The example files are found in the folder _example_files_. For performing the ex
 >
 > When it run, you must see in the terminal:
 >
-> ----STARTING DDI PREDICTION
-> --- DDI FINISHED!
-> --- # PREDICTIONS: 316
-> -- Output file: DDIpreds.txt and DDIpreds_with_info.txt
-> ----STARTING DMI PREDICTION
-> --- DMI FINISHED!
-> --  PREDICTIONS: 1116
-> -- Output file: MPDMIresult.tsv
-> ----STARTING STRUCTURAL FILTERING
-> 528
-> 1116
-> O14763
-> (... a list of proteins)
-> --- STRUCTURAL FILTERING FINISHED!
-> Output file: DMI_filtered.csv
-> --- GENERATING TieDie INPUT FROM PREDICTED INTERACTIONS
-> --- TieDie INPUT FINISHED!
-> --- TieDie starting...
-> Warning: No kernel file supplied, will use SCIPY to compute the matrix exponential, t=0.1...
-> Parsing Network File..
-> Warning: input heat node O60883 not in the network and will be ignored...
-> Warning: input heat node P47775 not in the network and will be ignored...
-> Warning: input heat node O43424 not in the network and will be ignored...
-> (... more warning)
+> ----STARTING DDI PREDICTION  
+> --- DDI FINISHED!  
+> --- # PREDICTIONS: 316  
+> -- Output file: DDIpreds.txt and DDIpreds_with_info.txt  
+> ----STARTING DMI PREDICTION  
+> --- DMI FINISHED!  
+> --  PREDICTIONS: 1116  
+> -- Output file: MPDMIresult.tsv  
+> ----STARTING STRUCTURAL FILTERING  
+> 528  
+> 1116  
+> O14763  
+> (... a list of proteins)  
+> --- STRUCTURAL FILTERING FINISHED!  
+> Output file: DMI_filtered.csv  
+> --- GENERATING TieDie INPUT FROM PREDICTED INTERACTIONS  
+> --- TieDie INPUT FINISHED!  
+> --- TieDie starting...  
+> Warning: No kernel file supplied, will use SCIPY to compute the matrix exponential, t=0.1...  
+> Parsing Network File..  
+> Warning: input heat node O60883 not in the network and will be ignored...  
+> Warning: input heat node P47775 not in the network and will be ignored...  
+> Warning: input heat node O43424 not in the network and will be ignored...  
+> (... more warning)  
 
 
 ### STEP BY STEP SIMULATION EXAMPLE
@@ -316,35 +315,35 @@ In the file `USER_stepbystep_mode.sh` complete the variables as following:
 Variable in the main file:
 `step="DDI"`
 
-> input_file1="Metaproteome.txt"
-> col_id1=1
-> col_pf1=2
-> input_file2="humanDDI.txt"
-> col_id2=1
-> col_pf2=2
+> input_file1="Metaproteome.txt"  
+> col_id1=1  
+> col_pf1=2  
+> input_file2="humanDDI.txt"  
+> col_id2=1  
+> col_pf2=2  
 
 ### 2 Domain-motif interactions (DMI)
 
 Variable in the main file:
 `step="DMI"`
 
-> input_file1="Metaproteome.txt"
-> col_id1=1
-> col_pf1=2
-> input_file2="humanDMI.fasta"
-> col_id2=0
-> col_pf2=0
+> input_file1="Metaproteome.txt"  
+> col_id1=1  
+> col_pf1=2  
+> input_file2="humanDMI.fasta"  
+> col_id2=0  
+> col_pf2=0  
 
 ### 3 Structural filtering
 
 Variable in the main file:  
 `step="structural_filtering"`
 
-> input_file1="MPDMIresult.tsv"
-> col_id1=0
-> col_pf1=0
-> input_file2=" "
-> col_id2=0
+> input_file1="MPDMIresult.tsv"  
+> col_id1=0  
+> col_pf1=0  
+> input_file2=" "  
+> col_id2=0  
 > col_pf2=0
 
 
@@ -355,25 +354,25 @@ Variable in the main file:
 Variable in the main file:  
 `step="tiedie_input"`
 
-> input_file1="DDIpreds.txt"
-> col_id1=1
-> col_pf1=0
-> input_file2=""
-> col_id2=2
-> col_pf2=0
+> input_file1="DDIpreds.txt"  
+> col_id1=1  
+> col_pf1=0  
+> input_file2=""  
+> col_id2=2  
+> col_pf2=0  
 
 **_4.2. TieDie EXECUTION_** :
 
 Variable in the main file:  
 `step="tiedie"`
 
-> input_file1="Tie_Die_upstream.input"
-> col_id1=0
-> col_pf1=0
-> input_file2="Tie_Die_downstream.input"
-> col_id2=0
-> col_pf2=0
+> input_file1="Tie_Die_upstream.input"  
+> col_id1=0  
+> col_pf1=0  
+> input_file2="Tie_Die_downstream.input"  
+> col_id2=0  
+> col_pf2=0  
 
 ### After complete the variables:
-save  
-run `sh USER_stepbystep_mode.sh`
+save   
+run `sh USER_stepbystep_mode.sh`  

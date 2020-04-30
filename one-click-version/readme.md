@@ -54,7 +54,7 @@ This section will describe the execution of the default running of all steps aut
 
 Find complete information about the steps in the section **Step-by-step mode**.
 
-For running the complete mode, you will open the file: _complete_running.sh_ and complete the variables with your preferences and input files names. 
+For running the complete mode, you will open the file: _USER_complete_mode.sh_ and complete the variables with your preferences and input files names. 
 
 After complete it, run it:
 
@@ -97,15 +97,15 @@ More about needed files and parameters for complete running:
 
 ##  STEP-BY-STEP MODE
 
-If you want to run the steps separatedly, you will open the main file `stepbystep_mode.sh` and complete the variables with the information about files and parameters acording to the step that you will run. 
+If you want to run the steps separatedly, you will open the main file `USER_stepbystep_mode.sh` and complete the variables with the information about files and parameters acording to the step that you will run. 
 
 Then, you will run the script:
 
-`sh stepbystep_mode.sh`
+`sh USER_stepbystep_mode.sh`
 
 ### INPUT INFORMATION
 All your input files must be in the folder "user_input". 
-Inside the file `stepbystep_mode.sh` you will find various variables to complete in order to run the script.
+Inside the file `USER_stepbystep_mode.sh` you will find various variables to complete in order to run the script.
 
 - `step=`
 -- complete according to the step that you want to perform.

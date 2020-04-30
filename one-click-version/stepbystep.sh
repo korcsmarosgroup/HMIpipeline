@@ -77,7 +77,7 @@ if [ $step = "structural_filtering" ]; then
 
 cd $pipe_dir/3.Structural_filtering/structural_filtering/src
 
-cp $main_dir/user_inputs/$input_file1 ./"MPDMIresult.tsv"
+cp $main_dir/user_inputs/$input_file1 .
 
 echo "----STARTING STRUCTURAL FILTERING"
 python3 structural_filtering_prediction.py --hmi_prediction $input_file1 --resources ../resources --results ../results

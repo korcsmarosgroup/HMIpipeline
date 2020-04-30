@@ -28,17 +28,6 @@ input_file2="Tie_Die_downstream.input"
 col_id2=0
 col_pf2=0
 
-<<COM
-## INPUT INFORMATION
-input_file1="Tie_Die_upstream.input"
-col_id1=""
-col_pf1=""
-
-input_file2="Tie_Die_downstream.input"
-col_id2=""
-col_pf2=""
-COM
-
 ###################
 ### COMMAND LINE
 sh stepbystep.sh $step $id_format $input_file1 $col_id1 $col_pf1 $input_file2 $col_id2 $col_pf2 

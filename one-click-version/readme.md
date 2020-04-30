@@ -1,6 +1,6 @@
 # MicrobioLink pipeline
 
-Codes developed by Balász Bohár, Padhmanand Sudhakar and Tahila Andrighetti.
+Codes developed by Balász Bohár, Padhmanand Sudhakar and Tahila Andrighetti.  
 If you have any question please write for tahilaandrighetti@gmail.com
 
 ## **What do you need for the pipeline**

@@ -198,7 +198,7 @@ In this step, you will perform the _structural filtering of the interactions obt
 >> input_file1= DMI file  
 >> col_id1=0  
 >> col_pf1=0  
->> input_file2=" "  
+>> input_file2=0  
 >> col_id2=0  
 >> col_pf2=0  
 
@@ -221,7 +221,7 @@ By default, MicrobioLink uses the number of bacterial proteins that each host re
 >> input_file1= file  
 >> col_id1= number of bacterial protein ID column  
 >> col_pf1=0  
->> input_file2=" "  
+>> input_file2=0  
 >> col_id2= number of host protein ID column  
 >> col_pf2=0  
 
@@ -348,7 +348,7 @@ Variable in the main file:
 > input_file1="MPDMIresult.tsv"  
 > col_id1=0  
 > col_pf1=0  
-> input_file2=" "  
+> input_file2=0  
 > col_id2=0  
 > col_pf2=0
 
@@ -361,10 +361,10 @@ Variable in the main file:
 `step="tiedie_input"`
 
 > input_file1="DDIpreds.txt"  
-> col_id1=1  
-> col_pf1=0  
-> input_file2=""  
-> col_id2=2  
+> col_id1=1  #Number of column containning bacterial proteins
+> col_pf1=2  #Number of column containning receptor proteins
+> input_file2=0  
+> col_id2=0 
 > col_pf2=0  
 
 **_4.2. TieDie EXECUTION_** :

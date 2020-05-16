@@ -218,18 +218,18 @@ By default, MicrobioLink uses the number of bacterial proteins that each host re
  
 >  - **input_file1**:  This file contains interactions between bacterial and host proteins, with its id. Indicate in the variables _col_id1_ the number of column with bacterial proteins and _col_id2_  the number of column with host proteins, as showed above:
 >
->> input_file1= file  
->> col_id1= number of bacterial protein ID column  
->> col_pf1=0  
+>> input_file1=Interactions file  
+>> col_id1=number of bacterial protein ID column  
+>> col_pf1=number of host protein ID column 
 >> input_file2=0  
->> col_id2= number of host protein ID column  
+>> col_id2=0  
 >> col_pf2=0  
 
 > **_OUTPUT FILE_**: contains the information of the **upstream** proteins, the host proteins connected with bacterial proteins. It is the default input file for TieDie. This file has 3 columns:1) protein ID (it has tp be in Gene Symbol or Uniprot ID); 2) weight of the protein (with how much bacterial protein it is connected, by default); 3) if the protein is positive (+) or negative (-)  according to the study context (they are all + for MicrobioLink default).
 
 **_4.2. TieDie EXECUTION_** :
 > Variable in the main file:  
-> `step="tiedie_input"`
+> `step="tiedie"`
 > 
 > **_INPUT FILES_** :
 >
@@ -239,10 +239,10 @@ By default, MicrobioLink uses the number of bacterial proteins that each host re
 >
 > The variables _col_ ... are not needed. Keep it as 0.
 > 
->> input_file1= upstream file  
+>> input_file1=upstream file  
 >> col_id1=0  
 >> col_pf1=0  
->> input_file2= downstream file  
+>> input_file2=downstream file  
 >> col_id2=0  
 >> col_pf2=0  
 >

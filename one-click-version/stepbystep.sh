@@ -46,7 +46,8 @@ cp $input_file2 $pipe_dir/1.DDI/humanprots_pfam_forDDI.txt
 
 cd $pipe_dir/1.DDI/
 echo "----STARTING DDI PREDICTION"
-python3 DDIbasedPPIprediction.py "Metaproteome_pfam_forDDI.txt" $col_id1 $col_pf1 "humanprots_pfam_forDDI.txt" $col_id2 $col_pf2 ### the argument is the input files with its column number
+python3 DDIbasedPPIprediction.py --bacterial_input "Metaproteome_pfam_forDDI.txt" --bacterial_id_col $col_id1 --bacterial_pf_col $col_pf1 --human_input "humanprots_pfam_forDDI.txt" --human_id_col $col_id2 --human_pf_col $col_pf2
+
 cp DDIpreds.txt $main_dir/outputs
 mv DDIpreds_with_info.txt $main_dir/outputs
 
@@ -65,10 +66,9 @@ cp $input_file2 $pipe_dir/2.DMI/human_receptors.fasta
 cd $pipe_dir/2.DMI/
 
 echo "----STARTING DMI PREDICTION"
-python3 DMI.py "Metaproteome_pfam.txt" $col_id1 $col_pf1 "human_receptors.fasta"
+python3 DMI.py --bacterial_input "Metaproteome_pfam.txt" --bacterial_id_col $col_id1 --bacterial_pf_col $col_pf1 --human_receptors_DMI "human_receptors.fasta"
 # the output of DMI.py is MPDMIresult.tsv
 fi
-
 
 #########
 ## Structural filtering

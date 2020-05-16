@@ -220,7 +220,7 @@ By default, MicrobioLink uses the number of bacterial proteins that each host re
 >
 >> input_file1=Interactions file  
 >> col_id1=number of bacterial protein ID column  
->> col_pf1=number of host protein ID column 
+>> col_pf1=number of host protein ID column  
 >> input_file2=0  
 >> col_id2=0  
 >> col_pf2=0  

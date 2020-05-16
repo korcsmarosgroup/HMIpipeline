@@ -11,10 +11,9 @@ def DicInteractions(inte_file,bact_prot,receptor,header=False):
 		list_inte=[a.strip().split() for a in inte_list.readlines()]
 		if header == True:
 			list_inte=list_inte[1:]
-		list_inte=[[a[bact_prot],a[receptor]] for a in list_inte]
-		dic_br=dict([(a[1],set()) for a in list_inte]) #dictionary bacterial protein = receptor
+		dic_br=dict([(a[receptor],set()) for a in list_inte]) #dictionary bacterial protein = receptor
 		for inte in list_inte:
-			dic_br[inte[1]].add(inte[0])
+			dic_br[inte[receptor]].add(inte[bact_prot])
 	return dic_br
 
 

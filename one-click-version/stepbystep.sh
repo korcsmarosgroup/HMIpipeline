@@ -105,9 +105,9 @@ echo "--- GENERATING TieDie INPUT FROM PREDICTED INTERACTIONS"
 #The input will be the predicted interactions. 
 #DMI_file=sys.argv[1]
 cd $pipe_dir/4.TieDie/ML_generating_input
-cp $main_dir/user_inputs/$input_file1 .
+cp $main_dir/user_inputs/$input_file1 ./input_generate
 
-python3 tiedie_input.py $input_file1 1 2 "" 0 0 DMI
+python3 tiedie_input.py 0 0 0 input_generate $col_id1 $col_pf1 DDI
 cp upstream.input $main_dir/outputs/Tie_Die_upstream.input #copy for the user too
 echo "--- TieDie INPUT FINISHED!"
 fi

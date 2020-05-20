@@ -11,6 +11,10 @@
 # Do not include space between the "=" and the string!
 # Do id_format="uniprot" and not id_format= "uniprot"
 
+echo "MAKE SURE THAT YOU ARE CONNECTED TO THE VIRTUAL ENVIRONMENT OR DOCKER." 
+echo "ACTIVATE THE VIRTUAL ENVIRONMENT BY THE COMMAND LINE $source .venv/bin/activate" 
+echo "CHECK THE README FILE FOR MORE INFORMATION"
+
 ###################
 ### INPUT FILES 
 

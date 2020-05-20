@@ -48,8 +48,8 @@ cd $pipe_dir/1.DDI/
 echo "----STARTING DDI PREDICTION"
 python3 DDIbasedPPIprediction.py --bacterial_input "Metaproteome_pfam_forDDI.txt" --bacterial_id_col $col_id1 --bacterial_pf_col $col_pf1 --human_input "humanprots_pfam_forDDI.txt" --human_id_col $col_id2 --human_pf_col $col_pf2
 
-cp DDIpreds.txt $main_dir/outputs
-mv DDIpreds_with_info.txt $main_dir/outputs
+cp DDIpreds.txt $main_dir/output
+mv DDIpreds_with_info.txt $main_dir/output
 
 fi
 
@@ -83,7 +83,7 @@ echo "----STARTING STRUCTURAL FILTERING"
 python3 structural_filtering_prediction.py --hmi_prediction $input_file1 --resources ../resources --results ../results
 rm -rf ../resources/protein_sequences/*
 echo "--- STRUCTURAL FILTERING FINISHED!\n Output file: DMI_filtered.csv"
-cp ../results/idr_motifs.csv $main_dir/outputs/DMI_filtered.csv
+cp ../results/idr_motifs.csv $main_dir/output/DMI_filtered.csv
 
 fi
 
@@ -108,7 +108,7 @@ cd $pipe_dir/4.TieDie/ML_generating_input
 cp $main_dir/user_inputs/$input_file1 ./input_generate
 
 python3 tiedie_input.py 0 0 0 input_generate $col_id1 $col_pf1 DDI
-cp upstream.input $main_dir/outputs/Tie_Die_upstream.input #copy for the user too
+cp upstream.input $main_dir/output/Tie_Die_upstream.input #copy for the user too
 echo "--- TieDie INPUT FINISHED!"
 fi
 
@@ -125,7 +125,7 @@ cp $main_dir/user_inputs/$input_file2 ./downstream.input
 python3 ../bin/tiedie -u upstream.input -d downstream.input -n pathway_$id_format.sif -s 1.0 --output_folder output_folder
 
 cd output_folder/
-cp tiedie.sif $main_dir/outputs/
+cp tiedie.sif $main_dir/output/
 
 echo "--- TieDie FINISHED!!!!"
 echo "-- Output: tiedie.sif"
